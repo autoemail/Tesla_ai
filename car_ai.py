@@ -30,8 +30,8 @@ while True:
       else:
           break
 
-      cv2.imshow("Car Ai Detection",gray_frame)
-      cv2.waitKey(1)
+#       cv2.imshow("Car Ai Detection",gray_frame)
+#       cv2.waitKey(1)
       car=car_train.detectMultiScale(gray_frame)
       pad=pedastrain_train.detectMultiScale(gray_frame)
       #print(car)
